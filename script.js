@@ -5,3 +5,4 @@ async function fetchWeather(city) {
     var data = await response.json();
    console.log(data);
 }
+fetchWeather('London'); 
