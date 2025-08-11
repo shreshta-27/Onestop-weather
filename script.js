@@ -42,4 +42,3 @@ async function fetchWeather(city) {
 searchBtn.addEventListener("click", () => {
     fetchWeather(searchBox.value);
 });
-;
